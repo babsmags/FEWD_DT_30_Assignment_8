@@ -184,7 +184,7 @@ blockquote span {
   padding-bottom: 40px;
   margin-bottom: 40px;
 }
-.post h2 {
+.post h2, .container h2{
   font-weight: 600;
   font-size: 40px;
   line-height: 1.3;
@@ -290,6 +290,43 @@ footer p {
 }
 #contact {
   width: 70%;
+}
+
+.container {
+  color: #043049;
+}
+
+.form-control {
+  border:none;
+  border-radius:unset;
+  border-bottom:1px solid #043049;
+  font-size:inherit;
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+}
+
+.col-form-legend {
+  font-size:inherit;
+}
+.text-center {
+  margin:50px;
+}
+
+#contact {
+  text-align:center;
+}
+
+#error{
+  display: none;
+}   
+
+.error-show{
+  color: red;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
